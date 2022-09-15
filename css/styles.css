@@ -35,3 +35,19 @@
 .title {
     font-family: sans-serif;
 }
+
+.workout {
+    font-family: sans-serif;
+}
+
+.workout table {
+    border-collapse: collapse;
+    text-align: left;
+    table-layout: auto;
+    width: 100%;
+}
+
+.workout th {
+    background-color: #040404;
+    color: white;
+}
