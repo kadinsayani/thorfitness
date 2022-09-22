@@ -36,10 +36,6 @@
     background-color: #040404;
 }
 
-#title, h2, p {
-    font-family: sans-serif;
-}
-
 .workout {
     font-family: sans-serif;
 }
@@ -86,5 +82,9 @@
 .dropdown-content a {
     color: black;
     padding: 12px 16px;
+    display: block;
+}
+
+.dropdown:hover .dropdown-content {
     display: block;
 }
