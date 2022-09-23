@@ -13,6 +13,29 @@ h1 {
     text-align: center;
 }
 
+.dashboarditems {
+    text-align: center;
+    font-size: 1.5em;
+    border: none;
+    outline: none;
+    color: rgb(34 197 94);
+    padding: 14px 16px;
+    background-color: inherit;
+    margin: 0;
+}
+
+.dashboarditems a { 
+    color: rgb(34 197 94);
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    text-decoration: underline;
+}
+
+.dashboarditems a:hover {
+    font-size: 1.25em;
+}
+
 .workout table {
     border-collapse: collapse;
     text-align: left;
@@ -74,7 +97,6 @@ h1 {
     color: rgb(34 197 94);
     padding: 14px 16px;
     background-color: inherit;
-    font-family: inherit;
     margin: 0;
 }
 
@@ -97,4 +119,26 @@ h1 {
 
 .dropdown:hover .dropdown-content {
     display: block;
+}
+
+button {
+    background-color: rgb(34 197 94);
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+}
+
+textarea {
+    width: 100%;
+    height: 100px;
+    padding: 12px 20px;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    background-color: #f8f8f8;
+    font-size: 16px;
+    resize: none;
 }
