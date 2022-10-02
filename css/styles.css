@@ -178,3 +178,9 @@ textarea {
     z-index: -1;
     opacity: 15%;
 }
+
+iframe {
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%
+}
