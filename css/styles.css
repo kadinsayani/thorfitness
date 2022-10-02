@@ -15,9 +15,11 @@ h1 {
 
 img {
     border-radius: 1%;
-    max-width: 100%;
     height: auto;
     background-color: white;
+    display: block; 
+    margin: 0 auto;
+    width: 75%;
 }
 
 .dashboard-buttons {
